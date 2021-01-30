@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test_TD1_Dev_Android</string>
+    <string name="last_name">Nom de famille</string>
+    <string name="age">Âge</string>
+    <string name="field_expertise">Domaine de compétence</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="button_validation">Confirmer</string>
+    <string name="first_name">Prénom</string>
+    <string name="helloworld">Bonjour le monde</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test_TD1_Dev_Android</string>
+    <string name="mainbutton" translatable="false">click</string>
+    <string name="helloworld">Hello World</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="age">Age</string>
+    <string name="field_expertise">Field of expertise</string>
+    <string name="phone_number">Phone number</string>
+    <string name="button_validation">Confirm</string>
+</resources>
