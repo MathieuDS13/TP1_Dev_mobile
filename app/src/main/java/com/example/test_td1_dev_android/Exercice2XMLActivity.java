@@ -18,7 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Exercice2XMLActivity extends AppCompatActivity {
 
     Button confirmButton;
-    EditText firstName, lastName, age;
+    EditText firstName, lastName, age, phone;
     Context context = this;
 
     @Override
@@ -30,6 +30,7 @@ public class Exercice2XMLActivity extends AppCompatActivity {
         firstName = findViewById(R.id.first_name);
         lastName = findViewById(R.id.last_name);
         age = findViewById(R.id.age);
+        phone = findViewById(R.id.phone);
 
         confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,6 +51,7 @@ public class Exercice2XMLActivity extends AppCompatActivity {
                                 goToNext.putExtra("FirstName", firstName.getText().toString());
                                 goToNext.putExtra("LastName", lastName.getText().toString());
                                 goToNext.putExtra("Age", age.getText().toString());
+                                goToNext.putExtra("Phone", phone.getText().toString());
                                 startActivity(goToNext);
                             }
                         }).setNegativeButton("Change", new DialogInterface.OnClickListener() {

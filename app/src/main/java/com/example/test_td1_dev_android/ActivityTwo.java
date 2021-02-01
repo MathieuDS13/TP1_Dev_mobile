@@ -20,10 +20,11 @@ public class ActivityTwo extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
 
-        String firstName, lastName, age;
+        String firstName, lastName, age, phone;
         lastName = extras.getString("LastName");
         firstName = extras.getString("FirstName");
         age = extras.getString("Age");
+        phone = extras.getString("Phone");
 
         LinearLayout layout = new LinearLayout(this);
         layout.setOrientation(LinearLayout.VERTICAL);
@@ -37,6 +38,7 @@ public class ActivityTwo extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent thirdActivity = new Intent(context, ActivityThree.class);
+                thirdActivity.putExtra("Phone", phone);
                 startActivity(thirdActivity);
             }
         });
