@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quelle est votre ville de départ ? :" />
+
+    <EditText
+        android:id="@+id/form_depart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ville de départ" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quelle est votre ville d'arrivée ? : " />
+
+    <EditText
+        android:id="@+id/form_arrivee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ville d'arrivée" />
+
+    <Button
+        android:id="@+id/confirm_horaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

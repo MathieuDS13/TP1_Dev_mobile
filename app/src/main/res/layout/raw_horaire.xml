@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@android:drawable/divider_horizontal_textfield"
+    android:orientation="horizontal"
+    android:showDividers="middle">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D : " />
+
+    <TextView
+        android:id="@+id/depart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Départ" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A : " />
+
+    <TextView
+        android:id="@+id/arrivee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrivée" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H : " />
+
+    <TextView
+        android:id="@+id/horaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="heure" />
+
+</LinearLayout>
